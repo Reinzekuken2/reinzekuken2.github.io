@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Hello world"
+title: "Hello World"
 date: 2016-07-10
 ---
-
-Hello world
+Hello World

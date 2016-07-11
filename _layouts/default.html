@@ -2,16 +2,16 @@
 <html>
 <head>
     <title>{{ page.title }}</title>
-    <!--<title>Печеньки</title>-->
-    <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <style>
+        {% include main.css %}
+    </style>
 </head>
 <body>
 <nav>
     <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/cv">CV</a></li>
+        <!--<li><a href="/cv">CV</a></li>-->
         <li><a href="/blog">Blog</a></li>
     </ul>
 </nav>
@@ -19,7 +19,7 @@
 
     {{ content }}
 
-</div><!-- /.container -->
+</div>
 <footer>
     <ul>
         <li><a href="mailto:reinzekuken@gmail.com">email</a></li>
